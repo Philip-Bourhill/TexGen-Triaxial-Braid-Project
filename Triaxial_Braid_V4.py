@@ -78,7 +78,7 @@ Zf4 = (math.sqrt((1 - ((0.4*Xmax)**2 / W**2)) * b**2)) + (math.sqrt((1 - ((0.4*X
 Zf6 = (math.sqrt((1 - ((0.6*Xmax)**2 / W**2)) * b**2)) + (math.sqrt((1 - ((0.6*Xmax)**2 / W**2)) * b**2) * W**2) / ((0.6*Xmax) * b**2) * math.sqrt(((d / 2)**2) / (1 - (W**2 / b**2) + (W**4 / ((0.6*Xmax)**2 * b**2))))
 Zf8 = (math.sqrt((1 - ((0.8*Xmax)**2 / W**2)) * b**2)) + (math.sqrt((1 - ((0.8*Xmax)**2 / W**2)) * b**2) * W**2) / ((0.8*Xmax) * b**2) * math.sqrt(((d / 2)**2) / (1 - (W**2 / b**2) + (W**4 / ((0.8*Xmax)**2 * b**2))))
 
-Zfa = ((-Zf - Zf) / (Xfb - Xfa)) * ((Xfa*1.2) - Xf * math.cos(theta)) + Zf;
+Zfa = ((-Zf - Zf) / ((X-Xfa) - Xfa)) * ((Xfa*1.2) - Xf * math.cos(theta)) + Zf;
 
 
 
